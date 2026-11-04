@@ -30,8 +30,8 @@ export const Amenities: React.FC = () => {
             Comodidades e Infraestrutura
           </h2>
           <p className="mt-3 text-sm text-gray-500 max-w-2xl mx-auto">
-            A casa oferece tudo que você e sua família precisam para dias inesquecíveis.
-            Lazer, conforto, cozinha equipada e segurança completa.
+            A casa oferece tudo que você e sua família precisam para dias inesquecíveis:
+            piscina privativa com cascata, ar split em todos os quartos, cozinha equipada e total privacidade.
           </p>
         </div>
 

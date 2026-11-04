@@ -1,6 +1,15 @@
-# 🏠 Marcelo Imóveis — Landing Page
+# 🌴 Marcelo Guarujá Temporada — Casa com Piscina Privativa
 
-Casa de temporada exclusiva com piscina privativa, 3 quartos climatizados, berço para bebê e segurança completa.
+Casa de temporada exclusiva para até 20 pessoas no Balneário Praia de Pernambuco, Guarujá - SP (Rua dos Ubás, 200). Apenas 500 metros a pé da Praia de Pernambuco e Mar Casado.
+
+## Características
+
+- **Capacidade**: Até 20 pessoas
+- **Localização**: Rua dos Ubás, 200 • Balneário Praia de Pernambuco, Guarujá - SP (a 500m da praia)
+- **Lazer**: Piscina privativa com cascata e iluminação noturna em LED, deck e varanda gourmet
+- **Quartos**: 3 dormitórios com ar-condicionado Split individual (inclui berço para bebê)
+- **Privacidade & Estrutura**: Muros altos, portão automatizado, câmeras de monitoramento e garagem coberta para 3 veículos
+- **Contato direto**: Marcelo • WhatsApp (13) 98865-9092
 
 ## Stack
 
@@ -21,29 +30,4 @@ npm run dev
 
 ```bash
 npm run build
-```
-
-## Deploy
-
-Push para a branch `main` no GitHub. A Vercel faz deploy automático.
-
-## Estrutura
-
-```
-src/
-├── components/landing/
-│   ├── Navbar.tsx          # Navegação sticky
-│   ├── Hero.tsx            # Seção hero com showcase de fotos
-│   ├── Gallery.tsx         # Galeria com filtros (21 fotos)
-│   ├── LightboxModal.tsx   # Visualizador fullscreen
-│   ├── RoomCards.tsx       # Cards dos 3 quartos
-│   ├── Amenities.tsx       # Comodidades e infraestrutura
-│   ├── PriceSimulator.tsx  # CTA para consulta via WhatsApp
-│   ├── FloatingWhatsApp.tsx# Botão flutuante WhatsApp
-│   └── Footer.tsx          # Rodapé
-├── data/
-│   └── houseData.ts        # Dados do imóvel, imagens e amenidades
-├── App.tsx                 # Componente raiz
-├── main.tsx                # Entry point
-└── index.css               # Estilos globais e animações
 ```

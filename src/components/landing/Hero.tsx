@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageCircle, ShieldCheck, Sparkles, Moon, Sun, Users, Bed, Car, Eye, CheckCircle2 } from 'lucide-react';
+import { MessageCircle, ShieldCheck, Sparkles, Moon, Sun, Users, Bed, Car, Eye, CheckCircle2, MapPin } from 'lucide-react';
 import { houseHighlights } from '../../data/houseData';
 
 export const Hero: React.FC = () => {
@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
   };
 
   const whatsappMessage = encodeURIComponent(
-    'Olá Marcelo! Vi as fotos da casa com piscina privativa e gostaria de consultar a disponibilidade para as minhas férias!'
+    'Olá Marcelo! Gostaria de consultar datas e valores para a Casa de Temporada no Guarujá (Praia de Pernambuco) para até 20 pessoas!'
   );
 
   return (
@@ -40,23 +40,24 @@ export const Hero: React.FC = () => {
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             {/* Tag Institucional */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 text-brand-navy border border-blue-200/80 text-xs font-semibold shadow-xs">
-              <Sparkles className="w-3.5 h-3.5 text-brand-gold" />
-              <span>Locação de Temporada Direta com Marcelo Imóveis</span>
+              <MapPin className="w-3.5 h-3.5 text-brand-gold" />
+              <span>Praia de Pernambuco, Guarujá • Locação Direta com Proprietário</span>
             </div>
 
             {/* Título Principal */}
             <h1 className="font-montserrat font-extrabold text-3xl sm:text-4xl lg:text-5xl tracking-tight text-brand-navy leading-tight">
-              O refúgio perfeito para suas férias em família com{' '}
+              Casa de Temporada no Guarujá com{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-navy via-brand-navy-light to-brand-emerald">
-                piscina privativa
+                Piscina e Cascata
               </span>
+              , para até 20 pessoas, perto da praia
             </h1>
 
             {/* Subtítulo */}
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed font-normal max-w-2xl mx-auto lg:mx-0">
-              Desfrute de dias tranquilos em uma casa completa e acolhedora: piscina com cascata e iluminação noturna,
-              ar-condicionado em todos os quartos, berço para bebês, ampla sala em porcelanato e segurança monitorada
-              para você relaxar de verdade.
+              Desfrute de dias tranquilos no Balneário Praia de Pernambuco, a apenas <strong>500 metros do mar</strong> (6 a 8 min a pé).
+              Casa completa com piscina privativa iluminada em LED, ar-condicionado Split em todos os quartos,
+              berço para bebê, varanda gourmet, muros altos, portão eletrônico e monitoramento por câmeras para total privacidade.
             </p>
 
             {/* Pílulas de Destaques */}
@@ -66,8 +67,8 @@ export const Hero: React.FC = () => {
                 <span className="text-[11px] font-semibold text-gray-700">Até 20 pessoas</span>
               </div>
               <div className="flex items-center gap-2 p-2.5 bg-white rounded-xl border border-gray-100 shadow-xs">
-                <Bed className="w-4 h-4 text-brand-navy shrink-0" />
-                <span className="text-[11px] font-semibold text-gray-700">3 Qts (com Suíte)</span>
+                <MapPin className="w-4 h-4 text-brand-navy shrink-0" />
+                <span className="text-[11px] font-semibold text-gray-700">500m da Praia</span>
               </div>
               <div className="flex items-center gap-2 p-2.5 bg-white rounded-xl border border-gray-100 shadow-xs">
                 <Sparkles className="w-4 h-4 text-brand-emerald shrink-0" />
@@ -103,7 +104,7 @@ export const Hero: React.FC = () => {
             {/* Garantia */}
             <div className="pt-1 flex items-center justify-center lg:justify-start gap-4 text-xs text-gray-500">
               <span className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-brand-emerald" /> Sem intermediários
+                <CheckCircle2 className="w-4 h-4 text-brand-emerald" /> Locação direta com o Marcelo
               </span>
               <span className="flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-brand-navy" /> Imóvel 100% verificado

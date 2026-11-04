@@ -6,7 +6,7 @@ export const Navbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const whatsappUrl = `https://wa.me/${houseHighlights.whatsappNumber}?text=${encodeURIComponent(
-    'Olá Marcelo! Gostaria de consultar datas disponíveis e valores para a Casa de Temporada com piscina!'
+    'Olá Marcelo! Gostaria de consultar datas disponíveis e valores para a Casa de Temporada no Guarujá (Praia de Pernambuco)!'
   )}`;
 
   const navLinks = [
@@ -14,7 +14,7 @@ export const Navbar: React.FC = () => {
     { label: 'Fotos (21)', href: '#galeria' },
     { label: 'Quartos', href: '#quartos' },
     { label: 'Comodidades', href: '#lazer' },
-    { label: 'Segurança', href: '#seguranca' },
+    { label: 'Privacidade', href: '#seguranca' },
     { label: 'Reservar', href: '#valores' },
   ];
 
@@ -31,16 +31,16 @@ export const Navbar: React.FC = () => {
               </div>
             </div>
             <div>
-              <div className="flex items-center gap-1.5">
-                <span className="font-montserrat font-extrabold text-lg sm:text-xl tracking-tight text-brand-navy">
-                  MARCELO<span className="text-brand-gold">.</span>IMÓVEIS
+              <div className="flex items-center gap-1.5 flex-wrap">
+                <span className="font-montserrat font-extrabold text-base sm:text-lg tracking-tight text-brand-navy">
+                  MARCELO GUARUJÁ<span className="text-brand-gold">.</span>TEMPORADA
                 </span>
-                <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-50 text-brand-emerald-dark border border-emerald-200">
-                  Locação Direta
+                <span className="hidden md:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-50 text-brand-emerald-dark border border-emerald-200">
+                  Direto com Proprietário
                 </span>
               </div>
               <p className="text-[11px] text-brand-text-muted font-medium hidden sm:block">
-                Casa de Temporada Exclusiva com Piscina Privativa
+                Praia de Pernambuco, Guarujá • A 500m do mar
               </p>
             </div>
           </a>

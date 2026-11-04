@@ -10,7 +10,7 @@ const iconMap: Record<string, React.ReactNode> = {
 
 export const RoomCards: React.FC = () => {
   const whatsappUrl = `https://wa.me/${houseHighlights.whatsappNumber}?text=${encodeURIComponent(
-    'Olá Marcelo! Gostaria de saber mais sobre os quartos e a capacidade da casa!'
+    'Olá Marcelo! Gostaria de saber mais sobre os quartos e a acomodação para o meu grupo na casa do Guarujá!'
   )}`;
 
   return (
@@ -20,14 +20,13 @@ export const RoomCards: React.FC = () => {
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 text-brand-navy border border-blue-200/80 text-xs font-semibold mb-4">
             <Bed className="w-3.5 h-3.5 text-brand-gold" />
-            <span>{houseHighlights.quartos} Quartos • Suíte com Ar-Condicionado • Berço para Bebê</span>
+            <span>3 Quartos Climatizados • Até 20 Pessoas • Berço para Bebê</span>
           </div>
           <h2 className="font-montserrat font-extrabold text-2xl sm:text-3xl lg:text-4xl text-brand-navy">
-            Quartos Aconchegantes para Todo Mundo
+            Quartos Aconchegantes para Toda a Família
           </h2>
           <p className="mt-3 text-sm text-gray-500 max-w-2xl mx-auto">
-            Cada quarto foi pensado para garantir conforto e privacidade. Todos com ar-condicionado Split,
-            ventilação natural e camas box de mola ensacada.
+            Dormitórios arejados e confortáveis a 500m da Praia de Pernambuco. Todos com ar-condicionado Split individual, camas de casal, beliches e colchões extras.
           </p>
         </div>
 

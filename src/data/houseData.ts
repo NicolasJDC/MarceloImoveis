@@ -157,12 +157,17 @@ export const propertyImages: PropertyImage[] = [
 ];
 
 export const houseHighlights = {
-  nome: 'Casa das Palmeiras • Marcelo Imóveis',
-  subtitulo: 'Sua casa de temporada exclusiva com piscina privativa, conforto completo e segurança para a família.',
+  nome: 'Casa das Palmeiras • Praia de Pernambuco',
+  brandName: 'Marcelo Guarujá Temporada',
+  subtitulo: 'Sua casa de temporada exclusiva no Guarujá com piscina privativa, cascata e LED, a apenas 500m da Praia de Pernambuco para até 20 pessoas.',
   endereco: 'Rua dos Ubás, 200',
-  localizacao: 'Rua dos Ubás, 200',
-  distanciaPraia: 'A poucos minutos da praia e de comércios locais (mercado, padaria e farmácia)',
-  capacidade: 'Até 20 pessoas confortáveis',
+  bairro: 'Balneário Praia de Pernambuco',
+  cidade: 'Guarujá - SP',
+  cep: '11444-140',
+  localizacao: 'Rua dos Ubás, 200 • Praia de Pernambuco, Guarujá - SP',
+  distanciaPraia: 'A 500 metros a pé da Praia de Pernambuco e Mar Casado (6 a 8 min de caminhada)',
+  comercios: 'Próximo a padaria, supermercado, farmácia e Shopping Jequiti',
+  capacidade: 'Até 20 pessoas',
   quartos: 3,
   banheiros: 3,
   vagas: 3,

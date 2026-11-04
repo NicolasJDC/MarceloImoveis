@@ -54,10 +54,10 @@ export const Gallery: React.FC = () => {
             <span>Galeria Completa — 21 Fotos Reais do Imóvel</span>
           </div>
           <h2 className="font-montserrat font-extrabold text-2xl sm:text-3xl lg:text-4xl text-brand-navy">
-            Conheça Cada Cantinho da Casa
+            Conheça Cada Cantinho da Casa em Guarujá
           </h2>
           <p className="mt-3 text-sm text-gray-500 max-w-xl mx-auto">
-            Todas as fotos são reais e atuais. Nenhuma surpresa ao chegar: o que você vê é exatamente o que vai encontrar.
+            Fotos reais e atuais do imóvel no Balneário Praia de Pernambuco (Rua dos Ubás, 200). Sem surpresas: o que você vê é exatamente o que vai encontrar.
           </p>
         </div>
 

@@ -4,7 +4,7 @@ import { houseHighlights } from '../../data/houseData';
 
 export const PriceSimulator: React.FC = () => {
   const whatsappUrl = `https://wa.me/${houseHighlights.whatsappNumber}?text=${encodeURIComponent(
-    'Olá Marcelo! Gostaria de consultar valores e disponibilidade para a Casa de Temporada com piscina. Podemos conversar?'
+    'Olá Marcelo! Gostaria de consultar valores e disponibilidade para a Casa de Temporada no Guarujá (Praia de Pernambuco) para até 20 pessoas!'
   )}`;
 
   return (

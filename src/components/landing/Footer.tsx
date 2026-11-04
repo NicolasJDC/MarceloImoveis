@@ -4,17 +4,17 @@ import { houseHighlights } from '../../data/houseData';
 
 export const Footer: React.FC = () => {
   const whatsappUrl = `https://wa.me/${houseHighlights.whatsappNumber}?text=${encodeURIComponent(
-    'Olá Marcelo! Gostaria de consultar datas e valores para a Casa de Temporada!'
+    'Olá Marcelo! Gostaria de consultar datas e valores para a Casa de Temporada no Guarujá (Praia de Pernambuco)!'
   )}`;
 
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
     { label: 'Sobre a Casa', href: '#sobre' },
-    { label: 'Galeria de Fotos', href: '#galeria' },
+    { label: 'Fotos (21)', href: '#galeria' },
     { label: 'Quartos', href: '#quartos' },
     { label: 'Comodidades', href: '#lazer' },
-    { label: 'Segurança', href: '#seguranca' },
+    { label: 'Privacidade', href: '#seguranca' },
     { label: 'Consultar Valores', href: '#valores' },
   ];
 
@@ -30,17 +30,17 @@ export const Footer: React.FC = () => {
                 <Home className="w-5 h-5 text-brand-gold" />
               </div>
               <div>
-                <span className="font-montserrat font-extrabold text-lg tracking-tight">
-                  MARCELO<span className="text-brand-gold">.</span>IMÓVEIS
+                <span className="font-montserrat font-extrabold text-base tracking-tight">
+                  MARCELO GUARUJÁ<span className="text-brand-gold">.</span>TEMPORADA
                 </span>
                 <p className="text-[10px] text-blue-300/60 font-medium">
-                  Locação de Temporada Direta
+                  Locação Direta com o Proprietário
                 </p>
               </div>
             </a>
             <p className="text-sm text-blue-200/60 leading-relaxed max-w-xs">
-              Casa de temporada exclusiva com piscina privativa, conforto completo e segurança
-              para famílias e grupos de até 20 pessoas.
+              Casa de temporada exclusiva com piscina privativa e cascata na Praia de Pernambuco, Guarujá/SP.
+              A apenas 500m da praia para famílias e grupos de até 20 pessoas.
             </p>
           </div>
 
@@ -71,12 +71,23 @@ export const Footer: React.FC = () => {
             <div className="space-y-3">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-brand-gold shrink-0 mt-0.5" />
-                <p className="text-sm text-blue-200/70 leading-relaxed">
-                  {houseHighlights.localizacao}
-                </p>
+                <div>
+                  <p className="text-sm text-blue-100 font-semibold leading-tight">
+                    {houseHighlights.endereco}
+                  </p>
+                  <p className="text-xs text-blue-200/70 mt-0.5">
+                    {houseHighlights.bairro}, {houseHighlights.cidade}
+                  </p>
+                  <p className="text-[11px] text-blue-200/50">
+                    CEP {houseHighlights.cep}
+                  </p>
+                </div>
               </div>
-              <p className="text-xs text-blue-200/50 leading-relaxed pl-6">
-                {houseHighlights.distanciaPraia}
+              <p className="text-xs text-emerald-300/90 leading-relaxed font-medium pl-6">
+                🌊 {houseHighlights.distanciaPraia}
+              </p>
+              <p className="text-[11px] text-blue-200/60 leading-relaxed pl-6">
+                🛍️ {houseHighlights.comercios}
               </p>
             </div>
           </div>
@@ -109,10 +120,10 @@ export const Footer: React.FC = () => {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-blue-200/40 text-center sm:text-left">
-            © {currentYear} Marcelo Imóveis — Todos os direitos reservados.
+            © {currentYear} Marcelo Guarujá Temporada — Todos os direitos reservados.
           </p>
           <p className="text-[10px] text-blue-200/30">
-            As fotos são reais e representam fielmente o imóvel.
+            Fotos reais do imóvel na Praia de Pernambuco, Guarujá.
           </p>
         </div>
       </div>
