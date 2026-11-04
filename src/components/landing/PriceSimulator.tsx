@@ -59,7 +59,7 @@ export const PriceSimulator: React.FC = () => {
                   <div>
                     <h4 className="text-sm font-semibold text-gray-800">Quantidade de Pessoas</h4>
                     <p className="text-xs text-gray-500 mt-0.5">
-                      A casa acomoda até 14 pessoas. O valor varia conforme o tamanho do grupo.
+                      A casa acomoda até 20 pessoas. O valor varia conforme o tamanho do grupo.
                     </p>
                   </div>
                 </div>

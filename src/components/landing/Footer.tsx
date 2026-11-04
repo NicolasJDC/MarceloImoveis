@@ -40,7 +40,7 @@ export const Footer: React.FC = () => {
             </a>
             <p className="text-sm text-blue-200/60 leading-relaxed max-w-xs">
               Casa de temporada exclusiva com piscina privativa, conforto completo e segurança
-              para famílias e grupos de até 14 pessoas.
+              para famílias e grupos de até 20 pessoas.
             </p>
           </div>
 

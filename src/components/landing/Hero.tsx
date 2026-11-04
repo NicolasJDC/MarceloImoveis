@@ -35,7 +35,7 @@ export const Hero: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
-          
+
           {/* Coluna da Esquerda: Textos & CTAs */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             {/* Tag Institucional */}
@@ -63,7 +63,7 @@ export const Hero: React.FC = () => {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-1">
               <div className="flex items-center gap-2 p-2.5 bg-white rounded-xl border border-gray-100 shadow-xs">
                 <Users className="w-4 h-4 text-brand-gold shrink-0" />
-                <span className="text-[11px] font-semibold text-gray-700">Até 14 pessoas</span>
+                <span className="text-[11px] font-semibold text-gray-700">Até 20 pessoas</span>
               </div>
               <div className="flex items-center gap-2 p-2.5 bg-white rounded-xl border border-gray-100 shadow-xs">
                 <Bed className="w-4 h-4 text-brand-navy shrink-0" />
@@ -128,33 +128,30 @@ export const Hero: React.FC = () => {
               <div className="absolute top-4 right-4 flex items-center gap-1.5 bg-black/50 backdrop-blur-md p-1 rounded-xl border border-white/20">
                 <button
                   onClick={() => setActivePhoto('night')}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                    activePhoto === 'night'
+                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${activePhoto === 'night'
                       ? 'bg-brand-navy text-white shadow-md'
                       : 'text-gray-200 hover:text-white'
-                  }`}
+                    }`}
                 >
                   <Moon className="w-3.5 h-3.5 text-brand-gold" />
                   <span>Noite</span>
                 </button>
                 <button
                   onClick={() => setActivePhoto('day')}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                    activePhoto === 'day'
+                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${activePhoto === 'day'
                       ? 'bg-brand-emerald text-white shadow-md'
                       : 'text-gray-200 hover:text-white'
-                  }`}
+                    }`}
                 >
                   <Sun className="w-3.5 h-3.5 text-yellow-300" />
                   <span>Dia</span>
                 </button>
                 <button
                   onClick={() => setActivePhoto('living')}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                    activePhoto === 'living'
+                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${activePhoto === 'living'
                       ? 'bg-white text-brand-navy shadow-md'
                       : 'text-gray-200 hover:text-white'
-                  }`}
+                    }`}
                 >
                   <span>Sala</span>
                 </button>

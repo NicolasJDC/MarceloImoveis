@@ -159,14 +159,15 @@ export const propertyImages: PropertyImage[] = [
 export const houseHighlights = {
   nome: 'Casa das Palmeiras • Marcelo Imóveis',
   subtitulo: 'Sua casa de temporada exclusiva com piscina privativa, conforto completo e segurança para a família.',
-  localizacao: 'Litoral Paulista • Bairro Tranquilo e Familiar',
+  endereco: 'Rua dos Ubás, 200',
+  localizacao: 'Rua dos Ubás, 200',
   distanciaPraia: 'A poucos minutos da praia e de comércios locais (mercado, padaria e farmácia)',
-  capacidade: 'Até 12 a 14 pessoas confortáveis',
+  capacidade: 'Até 20 pessoas confortáveis',
   quartos: 3,
   banheiros: 3,
   vagas: 3,
-  whatsappNumber: '5511999999999', // Substituível pelo número do Marcelo
-  whatsappDisplay: '(11) 99999-9999',
+  whatsappNumber: '5513988659092',
+  whatsappDisplay: '(13) 98865-9092',
 };
 
 export const roomDetails = [
