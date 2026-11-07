@@ -33,7 +33,7 @@ export const Navbar: React.FC = () => {
             <div>
               <div className="flex items-center gap-1.5 flex-wrap">
                 <span className="font-montserrat font-extrabold text-base sm:text-lg tracking-tight text-brand-navy">
-                  MARCELO GUARUJÁ<span className="text-brand-gold">.</span>TEMPORADA
+                  MARCELO<span className="text-brand-gold">.</span>HOSPEDAGENS
                 </span>
                 <span className="hidden md:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-50 text-brand-emerald-dark border border-emerald-200">
                   Direto com Proprietário

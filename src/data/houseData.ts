@@ -158,7 +158,7 @@ export const propertyImages: PropertyImage[] = [
 
 export const houseHighlights = {
   nome: 'Casa das Palmeiras • Praia de Pernambuco',
-  brandName: 'Marcelo Guarujá Temporada',
+  brandName: 'Marcelo Hospedagens',
   subtitulo: 'Sua casa de temporada exclusiva no Guarujá com piscina privativa, cascata e LED, a apenas 500m da Praia de Pernambuco para até 20 pessoas.',
   endereco: 'Rua dos Ubás, 200',
   bairro: 'Balneário Praia de Pernambuco',

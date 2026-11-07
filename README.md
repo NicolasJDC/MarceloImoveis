@@ -1,4 +1,4 @@
-# 🌴 Marcelo Guarujá Temporada — Casa com Piscina Privativa
+# 🌴 Marcelo Hospedagens — Casa com Piscina Privativa no Guarujá
 
 Casa de temporada exclusiva para até 20 pessoas no Balneário Praia de Pernambuco, Guarujá - SP (Rua dos Ubás, 200). Apenas 500 metros a pé da Praia de Pernambuco e Mar Casado.
 

@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
               </div>
               <div>
                 <span className="font-montserrat font-extrabold text-base tracking-tight">
-                  MARCELO GUARUJÁ<span className="text-brand-gold">.</span>TEMPORADA
+                  MARCELO<span className="text-brand-gold">.</span>HOSPEDAGENS
                 </span>
                 <p className="text-[10px] text-blue-300/60 font-medium">
                   Locação Direta com o Proprietário
@@ -120,7 +120,7 @@ export const Footer: React.FC = () => {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-blue-200/40 text-center sm:text-left">
-            © {currentYear} Marcelo Guarujá Temporada — Todos os direitos reservados.
+            © {currentYear} Marcelo Hospedagens — Todos os direitos reservados.
           </p>
           <p className="text-[10px] text-blue-200/30">
             Fotos reais do imóvel na Praia de Pernambuco, Guarujá.
